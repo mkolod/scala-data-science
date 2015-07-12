@@ -1,0 +1,21 @@
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="deprecationWarnings" value="true"/>
+    <option name="uncheckedWarnings" value="true"/>
+    <parameters>
+      <parameter value="-optimize"/>
+      <parameter value="-encoding"/>
+      <parameter value="UTF-8"/>
+      <parameter value="-feature"/>
+      <parameter value="-language:existentials"/>
+      <parameter value="-language:higherKinds"/>
+      <parameter value="-language:implicitConversions"/>
+      <parameter value="-language:experimental.macros"/>
+      <parameter value="-Xlint"/>
+      <parameter value="-Yno-adapted-args"/>
+      <parameter value="-Ywarn-dead-code"/>
+      <parameter value="-Xfuture"/>
+      <parameter value="-Yinline-warnings"/>
+    </parameters>
+  </component>
+</project>
