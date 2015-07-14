@@ -19,6 +19,11 @@ The _plotting_ package contains utilities to abstract away some of the [WISP](ht
 
 The _demo_ package contains an example with synthetically generated data for linear regression. We know what weights to expect from the model, and we train the model to check if it returns values close to the "ground truth" weights. The demo runs one example using stochastic gradient descent (SGD) against Scala collections, and another example using Adagrad against a Spark RDD. The results are plotted at the end.
 
+**How to run the demo?**
+------------------------
+
+Just start SBT and type "run" at the console. That's it! If you don't have SBT, install it from [here](http://www.scala-sbt.org/download.html).
+
 **Feedback is appreciated!**
 ---------------------------------
 
