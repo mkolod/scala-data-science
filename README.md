@@ -4,7 +4,7 @@
 **What's this?**
 -------------------
 
-This repo was prepared specifically for [my Lambda Jam talk](https://a.confui.com/-2qxYB1n4). This is an example of using Scala "design patterns" such as as type classes to abstract away the machine learning execution platform (e.g. Scala collections, Apache Spark RDDs) from the algorithm itself. This will allow you to easily add in another execution engine (e.g. Apache Flink) without having to rewrite any of the machine learning algorithms with specific bindings.
+This repo was prepared specifically for [my Lambda Jam talk](https://a.confui.com/-2qxYB1n4) (see the corresponding slide deck [here](https://docs.google.com/presentation/d/1VgtlpOQIdeoTmBLRXzKCbIpUH87vAZ9IESNyZbCh1W0/edit?usp=sharing)). This is an example of using Scala "design patterns" such as as type classes to abstract away the machine learning execution platform (e.g. Scala collections, Apache Spark RDDs) from the algorithm itself. This will allow you to easily add in another execution engine (e.g. Apache Flink) without having to rewrite any of the machine learning algorithms with specific bindings.
 
  Also, I show how easy it is to simplify the optimization code by using simple functional programming features such as being able to pass functions as arguments to other functions or methods. For instance, the optimize() method may need to accept a weight updating scheme (SGD, Adagrad), which is a function. Similarly, weight initialization, cost and gradient calculation can be functions that are passed in. Other Scala features such as monads are a given in this design.
  
