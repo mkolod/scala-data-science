@@ -3,9 +3,9 @@ package us.marek.datascience.optimization
 import breeze.linalg.DenseVector
 import org.apache.log4j.Logger
 import us.marek.datascience.demo.SGDAdagradDemo
-import us.marek.datascience.optimization.Types.{WeightUpdate, WeightInit, CostFn, GradFn}
+import us.marek.datascience.optimization.Types.{WeightUpdate, CostFn, GradFn}
 import Sampling.sampleMiniBatch
-import us.marek.datascience.typeclasses.DistData
+import us.marek.datascience.implicits.DistData
 
 /**
  * The optimizization algorithms (SGD, Adagrad, L-BFGS, etc.) go here.

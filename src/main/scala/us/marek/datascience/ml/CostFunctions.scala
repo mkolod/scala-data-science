@@ -3,7 +3,7 @@ package us.marek.datascience.ml
 import breeze.linalg.DenseVector
 import us.marek.datascience.optimization.Types.CostFn
 import us.marek.datascience.optimization.VectorizedData
-import us.marek.datascience.typeclasses.DistData
+import us.marek.datascience.implicits.DistData
 
 /**
  * Cost functions for various models (e.g. linear regression, logistic regression, neural networks) go here.

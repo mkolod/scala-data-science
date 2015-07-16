@@ -2,7 +2,7 @@ package us.marek.datascience.util
 
 import breeze.linalg.{DenseMatrix, DenseVector}
 import us.marek.datascience.optimization.{Datum, VectorizedData}
-import us.marek.datascience.typeclasses.DistData
+import us.marek.datascience.implicits.DistData
 
 /**
  * Various utils for data conversion, etc.

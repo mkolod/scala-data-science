@@ -3,7 +3,7 @@ package us.marek.datascience.ml
 import breeze.linalg.DenseVector
 import us.marek.datascience.optimization.Types.GradFn
 import us.marek.datascience.optimization.VectorizedData
-import us.marek.datascience.typeclasses.DistData
+import us.marek.datascience.implicits.DistData
 
 /**
  * Gradients for various models (e.g. linear regression, logistic regression, neural networks) go here.

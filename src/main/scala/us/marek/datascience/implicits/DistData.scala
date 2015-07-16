@@ -1,4 +1,4 @@
-package us.marek.datascience.typeclasses
+package us.marek.datascience.implicits
 
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD

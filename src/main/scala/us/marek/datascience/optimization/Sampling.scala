@@ -1,7 +1,7 @@
 package us.marek.datascience.optimization
 
 import org.apache.log4j.Logger
-import us.marek.datascience.typeclasses.DistData
+import us.marek.datascience.implicits.DistData
 
 import scala.util.Random
 

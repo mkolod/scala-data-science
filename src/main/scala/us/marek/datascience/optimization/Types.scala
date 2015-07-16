@@ -1,7 +1,7 @@
 package us.marek.datascience.optimization
 
 import breeze.linalg.DenseVector
-import us.marek.datascience.typeclasses.DistData
+import us.marek.datascience.implicits.DistData
 
 /**
  * Common types used throughout the optimization code base.

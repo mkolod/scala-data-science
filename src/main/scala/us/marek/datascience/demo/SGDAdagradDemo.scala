@@ -14,7 +14,7 @@ import DataConversions.toVectorizedData
 import us.marek.datascience.optimization.WeightInitializer._
 import us.marek.datascience.optimization.{Datum, VectorizedData}
 import us.marek.datascience.plotting.MultiPlot
-import us.marek.datascience.typeclasses.DistData
+import us.marek.datascience.implicits.DistData
 
 import scala.util.Random
 
@@ -81,9 +81,9 @@ object SGDAdagradDemo extends App {
   // TODO: add descriptions (expected coefficients and ones estimated by SGD and Adagrad)
 
 
-  val dropEl = 1
+  val dropEl = 3
   val plot = MultiPlot(
-    x = dropEl to allIt, //allIt/2
+    x = dropEl to allIt,
     y = Seq(
       vectLocalOptSGDWithMomentum.cost.drop(dropEl),
       vectSparkOptAdaWithMomentum.cost.drop(dropEl)
