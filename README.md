@@ -1,4 +1,4 @@
-**Lambda Jam 2015 Talk Repo**
+**Big Data Scala/Lambda Jam 2015 Talk Repo**
 =====================================
 
 **What's this?**
